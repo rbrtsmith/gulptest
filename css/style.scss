@@ -1,0 +1,11 @@
+body {
+	$green: #fff;
+	background: blue;
+	transform: scale(0.8);
+	transform-origin: 0 0;
+	background-image: linear-gradient(
+		to right,
+		$green,
+		blue
+	);
+}
