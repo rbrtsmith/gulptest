@@ -70,7 +70,7 @@ gulp.task('php', function() {
 	return gulp
 		.src('*.php')
 		.pipe(liveReload());
-});
+}); 
 
 gulp.task('image', function() {
 	return gulp.src('img/*')
